@@ -1,0 +1,8 @@
+1)
+A: as classes primitivas são aquelas que não são definidas de outras classes, exemplos:
+Bounded, que estabelece limites minimos e máximos, alguns métodos são "minBound" e "maxBound" que representam
+o limite mínimo e o máximo, respectivamente. A classe Eq é primitiva e trata os métodos de igualdade e
+desigualdade, tem como método/operador "==" e "/=", representando o operador igual e o operador diferente respectivamente. A classe Enum trata da enumerabilidade, alguns métodos são "succ", "pred" e "toEnum", que servem
+para obter o sucessor, predecessor e para converter um número para um Enum, respectivamente. As classes secundárias são aquelas que são definidas a partir de outras classes, exemplos: A Ord define métodos para tipos de dados  ordenados, como os operadores ">=" "<=", que retornam se um elemento é maior ou igual, ou menor ou igual, respectivamente. A classe Num define métodos para operações com números,  tem como alguns dos métodos/operadores "+", "-", "negate", que retornam a soma de dois números, a subtração de dois números, e o elemento negado, respectivamente. A classe Integral é outro exemplo, ela define métodos númericos para Inteiros, tem como alguns dos métodos "div" e "mod" que retornam a divisão inteira entre dois números e o resto da divisão, respectivamente.
+B: as classes numéricas do Haskell como "Real, Integral, Fractional, Floating, RealFraceRealFloat" servem para definir métodos numéricos para os seus respectivos tipos, cada classe tem alguma peculiaridade e alguns métodos
+específicos para tratar aquele tipo numérico. Elas tem algumas relações entre si, como "Real" instanciando Int, Integer, Float e Double e as outras classes numéricas instanciam apenas Float e Double.

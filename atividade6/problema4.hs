@@ -1,7 +1,7 @@
 data Arvore = Null | No Int Arvore Arvore
 
 minhaArvore :: Arvore
-minhaArvore = No 52 (No 32 (No 12 Null Null) (No 35 Null Null)) (No 56 (No 55 Null Null) (No 64 (No 64 Null Null) Null))
+minhaArvore = No 52 (No 32 (No 12 Null Null) (No 35 Null Null)) (No 56 (No 55 Null Null) (No 64 Null Null))
 
 somaElementos :: Arvore -> Int
 somaElementos Null = 0

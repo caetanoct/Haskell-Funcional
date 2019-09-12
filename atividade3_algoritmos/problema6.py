@@ -1,0 +1,6 @@
+a, b, c = input().split()
+a = int(a)
+b = int(b)
+c = int(c)
+maior = lambda a, b, c: c if c > a and c > b else (lambda a,b: a if a > b else b)(a,b)
+print(maior(a,b,c))

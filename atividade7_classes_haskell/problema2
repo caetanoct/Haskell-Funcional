@@ -1,0 +1,12 @@
+Existem quatro tipos de polimorfismo que alguma linguagem pode ter:
+Polimorfismo Universal:
+
+        Inclusão: um ponteiro para classe mãe pode apontar para uma instância de uma classe filha (exemplo em Java: List lista = new LinkedList(); (tipo de polimorfismo mais básico que existe)]
+
+        Paramétrico: se restringe ao uso de templates (C++, por exemplo) e generics (C#/Java)
+
+Polimorfismo Ad-Hoc:
+
+        Sobrecarga: duas funções/métodos com o mesmo nome mas assinaturas diferentes
+        
+        Coerção: conversão implícita de tipos sobre os parâmetros de uma função
